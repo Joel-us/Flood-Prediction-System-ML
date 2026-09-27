@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Python build files
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Frontend
+# =========================
+FloodVision_ui/node_modules/
+FloodVision_ui/.output/
+FloodVision_ui/dist/
+FloodVision_ui/.vite/
+
+# Frontend environment files
+FloodVision_ui/.env
+FloodVision_ui/.env.*
+!.env.example
+
+# =========================
+# Old unused model artifacts
+# =========================
+flood_scaler.pkl
+flood_kmeans.pkl
+flood_random_forest.pkl
+
+# =========================
+# Large local training datasets
+# These remain on your computer
+# =========================
+data/processed/CWC_Flood_NoFlood.csv
+data/processed/CWC_Flood_NoFlood_Training.csv
+
+# =========================
+# Generated result files
+# =========================
+results/figures/
+
+# Temporary CWC files
+cwc_temp/

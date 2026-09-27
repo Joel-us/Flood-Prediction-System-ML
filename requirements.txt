@@ -1,0 +1,17 @@
+# Data Processing
+numpy==2.4.0
+pandas==2.3.3
+
+# Machine Learning
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# Backend API
+fastapi==0.127.0
+uvicorn[standard]
+
+# External Data / APIs
+requests
+
+# CWC Parquet Data
+duckdb==1.5.5
