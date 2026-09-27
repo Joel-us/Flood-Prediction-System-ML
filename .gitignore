@@ -81,3 +81,5 @@ results/figures/
 
 # Temporary CWC files
 cwc_temp/
+# Vercel local files
+FloodVision_ui/.vercel/
